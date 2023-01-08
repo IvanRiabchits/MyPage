@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: OpenSans-Italic;
+    src: url("../fonts/OpenSans-Italic.ttf");
+}
+
+body {
+    font-family: OpenSans-Regular, serif;
+}
+
+.header {
+    padding: 10px 0;
+    background: #cecece no-repeat;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-right: 600px;
+    vertical-align: bottom;
+}
+
+.menu {
+    display: inline-block;
+
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 45px;
+    margin-bottom: 17px;
+}
+
+.menu-item a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 1.1;
+    text-decoration: none;
+}
+
+.info {
+    padding: 186px 0 187px 0;
+    background-image: url("../images/bg1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-title {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.main-info {
+    font-size: 28px;
+    font-family: OpenSans-Italic, serif;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.main-actions {
+    text-align: center;
+    margin-top: 82px;
+}
+
+.button {
+    width: 217px;
+    height: 67px;
+    font-family: OpenSans-Regular, serif;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    transition: all 500ms ease;
+}
+
+.button:hover {
+    box-shadow: 0 0 8px 0 rgba(255,255,255,0.24), 0 0 8px 0 rgba(255,255,255,0.19);
+}
+
+.button-white {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    background-color: transparent;
+    border: 3px solid white;
+    margin-right: 25px;
+}
+
+.button-color {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    background-color: #494949;
+    border: 3px solid #494949;
+}
+
+.about-me {
+    background-color: #CECECEFF;
+    padding: 125px 0 109px 0;
+}
+
+.about-me-title {
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.about-me-text {
+    display: inline-block;
+}
+
+.about-me-image {
+    display: inline-block;
+}
+
+.about-me-info {
+    font-size: 17px;
+    color: #000000;
+    line-height: 1.467;
+    margin-top: 20px;
+    max-width: 630px;
+}
+
+.about-me-info-image {
+    vertical-align: bottom;
+}
+
+.certificate-image {
+    max-width: 400px;
+    transition: 1s;
+    box-shadow: 7px 7px 10px 0 #494949;
+    margin-left: 120px;
+}
+
+.certificate-image:hover {
+    transform: scale(1.4);
+}
+
+.portfolio {
+    background: #ececec no-repeat;
+    padding: 125px 0 125px 0;
+    margin: 0 auto;
+}
+
+.portfolio-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.portfolio-title {
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.portfolio-info {
+    margin-bottom: 80px;
+    font-family: OpenSans-Italic, serif;
+    font-size: 17px;
+    color: #000000;
+    line-height: 1.467;
+    text-align: center;
+}
+
+.portfolio-actions {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-images {
+    max-width: 500px;
+    margin: 20px;
+    transition: 1s;
+    box-shadow: 7px 7px 10px 0 #494949;
+    border-radius: 3px;
+}
+
+.portfolio-images:hover {
+    transform: scale(1.1);
+}
+
+.portfolio-example {
+    text-align: center;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 1.467;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.contacts {
+    background-image: url("../images/bg2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 125px 0 125px 0;
+    margin: 0 auto;
+}
+
+.contacts-title {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+}
+
+.contacts-title-info {
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    line-height: 1.467;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contacts-images {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.contacts-image {
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    margin: 0 70px;
+    vertical-align: middle;
+}
+
+.contacts-image-data {
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.467;
+}
+
+/*#call, #mail {*/
+/*    margin-left: 130px;*/
+/*}*/
+
+.contacts-form {
+    max-width: 1031px;
+    margin: 80px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form {
+    border-radius: 10px;
+    font-family: OpenSans-Regular, serif;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    color: #000000;
+    text-align: left;
+    line-height: 1;
+    padding: 20px 21px;
+    width: 500px;
+}
+
+#input_1 {
+    margin-right: 31px;
+}
+
+textarea {
+    margin-top: 31px;
+    font-family: OpenSans-Regular, serif;
+    width: 1031px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.4;
+    text-align: left;
+    padding: 29px 20px;
+}
+
+.form::placeholder {
+    color: rgba(33, 33, 33, 0.8);
+}
+
+textarea::placeholder {
+    color: rgba(33, 33, 33, 0.8);
+}
+
+.button-form {
+    margin-top: 31px;
+    border-radius: 10px;
+    font-family: OpenSans-Regular, serif;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.footer {
+    background: #CECECEFF;
+}
+
+.footer-title {
+    padding: 23px 0;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 1.1;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

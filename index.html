@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Услуги по Frontend - разработке</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<main class="main">
+    <header class="header">
+        <div class="container">
+            <img class="logo" src="images/logo.png" alt="Логотип">
+            <nav class="menu">
+                <ul>
+                    <li class="menu-item">
+                        <a href="#">Главная</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#me">Обо мне</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#work">Мои работы</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#cont">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="info">
+        <div class="container">
+            <h1 class="main-title">Профессиональная Frontend - разработка</h1>
+            <p class="main-info">Качественные проекты для Вашего бизнеса</p>
+            <p class="main-info">Четкое соблюдение сроков и приятные цены</p>
+            <div class="main-actions">
+                <button onclick="document.location='#work'" class="button button-white">Мои работы</button>
+                <button onclick="document.location='#cont'" class="button button-color">Обсудить проект</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="me" class="about-me">
+        <div class="container">
+            <h2 class="about-me-title">Обо мне</h2>
+            <div class="about-me-text">
+                <p class="about-me-info">
+                    Рад приветствовать Вас на моей странице! Меня зовут Иван Рябчиц, и я - junior frontend - разработчик.
+                    В подтверждение своих слов делюсь с вами сертификатом об окончании курса Frontend-разработчик в
+                    онлайн-школе Itilogia.
+                </p>
+                <p class="about-me-info">
+                    Что я умею? - спросите Вы. Отвечаю:
+                </p>
+                <p class="about-me-info">
+                    <img src="images/html5.png" alt="" class="about-me-info-image">
+                    Верстать страницы на HTML5
+                </p>
+                <p class="about-me-info">
+                    <img src="images/css.png" alt="" class="about-me-info-image">
+                    Работать со стилями CSS
+                </p>
+                <p class="about-me-info">
+                    <img src="images/js.png" alt="" class="about-me-info-image">
+                    Писать понятный код и оживлять страницы с помощью Java Script
+                </p>
+            </div>
+            <div class="about-me-image">
+                <img src="images/cert.jpeg" alt="" class="certificate-image">
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="portfolio">
+        <div class="portfolio-container">
+            <h2 class="portfolio-title">Мои работы</h2>
+            <p class="portfolio-info">
+                В этом разделе Вы найдете примеры созданных мной сайтов. Уверен, Вы останетесь
+                довольны.
+            </p>
+            <div class="portfolio-actions">
+                <figure>
+                    <a href="#"><img src="images/rent_car.png" alt="Аренда авто" class="portfolio-images"></a>
+                    <fieldset class="portfolio-example">Сайт аренды авто премиального класса</fieldset>
+                </figure>
+                <figure>
+                    <a href="#"><img src="images/restaurant.png" alt="Ресторан" class="portfolio-images"></a>
+                    <fieldset class="portfolio-example">Сайт ресторана</fieldset>
+                </figure>
+                <figure>
+                    <a href="#"><img src="images/clinic.png" alt="Стоматология" class="portfolio-images"></a>
+                    <fieldset class="portfolio-example">Сайт стоматологической клиники</fieldset>
+                </figure>
+                <figure>
+                    <a href="#"><img src="images/rent_villa.png" alt="Аренда виллы" class="portfolio-images"></a>
+                    <fieldset class="portfolio-example">Сайт аренды шикарных вилл в Тайланде</fieldset>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section id="cont" class="contacts">
+        <div class="container">
+            <h2 class="contacts-title">Мои контакты</h2>
+            <p class="contacts-title-info">Выберите предпочтительный для Вас вид связи, и вперед!</p>
+            <div class="contacts-images">
+                <div class="contacts-image">
+                    <img class="contacts-image-item" src="images/placeholder.png" alt="Местоположение">
+                    <p class="contacts-image-data">Весь мир :)</p>
+                </div>
+                <div id="call" class="contacts-image">
+                    <img class="contacts-image-item" src="images/phone-call.png" alt="Телефон">
+                    <p class="contacts-image-data">+7 (123) 456-78-90</p>
+                </div>
+                <div id="mail" class="contacts-image">
+                    <img class="contacts-image-item" src="images/mailnew.png" alt="Письмо">
+                    <p class="contacts-image-data">johnny170990@gmail.com</p>
+                </div>
+            </div>
+            <form class="contacts-form" action="" method="post">
+                <input id="input_1" class="form" type="text" name="name" placeholder="Ваше ИМЯ" required>
+                <input class="form" type="email" name="email" placeholder="Ваш E-mail" required>
+                <textarea name="info" id="" cols="30" rows="10" placeholder="Ваше сообщение"></textarea>
+                <button type="submit" class="button button-form">Отправить</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-title">2023</p>
+        </div>
+    </footer>
+</main>
+
+</body>
+</html>
